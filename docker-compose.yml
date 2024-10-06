@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  ex_c:
+    container_name: ex_c
+    build:
+      context: ./C
+      dockerfile: ./../Dockerfile
+      target: ex_c
+    volumes:
+      - "./C:/C/"
