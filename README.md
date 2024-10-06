@@ -6,8 +6,8 @@
 - Git/GitHubなどの使い方
 - 個人的な開発
 
-作成者 : tomoneko
-ご質問 : tomoneko.inc@gmail.com
+作成者 : tomoneko  
+ご質問 : tomoneko.inc@gmail.com  
 
 # English
 ## Outline
@@ -17,5 +17,5 @@ This repository is created with the contents described below.
 - Learning how to use Git/GitHub and so on.
 - Developing personaly.
 
-Made By  : tomoneko
-Question : tomoneko.inc@gmail.com
+Made By  : tomoneko  
+Question : tomoneko.inc@gmail.com  
