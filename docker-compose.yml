@@ -5,7 +5,7 @@ services:
     container_name: ex_c
     build:
       context: ./C
-      dockerfile: ./../Dockerfile
+      dockerfile: ./Dockerfile
       target: ex_c
     volumes:
-      - "./C:/C/"
+      - "./C/:/C/"

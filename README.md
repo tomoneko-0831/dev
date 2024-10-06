@@ -9,6 +9,10 @@
 作成者 : tomoneko  
 ご質問 : tomoneko.inc@gmail.com  
 
+## 使用技術
+- Docker
+- C言語
+
 # English
 ## Outline
 This repository is created with the contents described below.
@@ -19,3 +23,7 @@ This repository is created with the contents described below.
 
 Made By  : tomoneko  
 Question : tomoneko.inc@gmail.com  
+
+## Technology
+- Docker
+- C_lang

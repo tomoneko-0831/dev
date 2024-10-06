@@ -1,0 +1,13 @@
+{
+    "name": "ex_C_lang",
+    "dockerComposeFile": ["../docker-compose.yml"],
+    "service": "ex_c",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools-extension-pack"
+            ]
+        }
+    },
+    "workspaceFolder": "/workspace/C/"
+}
