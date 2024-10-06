@@ -1,6 +1,6 @@
 FROM ubuntu:24.04 AS ex_c
 
-WORKDIR /C
+WORKDIR /C/
 
 RUN apt-get update && apt-get -y upgrade
 
