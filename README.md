@@ -1,5 +1,5 @@
-##日本語
-#概要
+#日本語
+##概要
 このリポジトリは，以下に記述されるような内容で作成したものです．
 
 ・個人的なプログラミングの練習
@@ -9,8 +9,8 @@
 作成者 : tomoneko
 ご質問 : tomoneko.inc@gmail.com
 
-##English
-#Outline
+#English
+##Outline
 This repository is created with the contents described below.
 
 ・Practicing Programing.
