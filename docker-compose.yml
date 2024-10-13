@@ -14,11 +14,23 @@ services:
   ex_java:
     container_name: ex_java
     build:
-      context: ./Java
+      context: ./Java/
       dockerfile: ./../.devcontainer/Dockerfile
       target: ex_java
     volumes:
       - "./Java:/Java/"
+    tty: true
+
+  ex_python:
+    container_name: ex_python
+    build:
+      context: ./Python
+      dockerfile: ./../.devcontainer/Dockerfile
+      target: ex_python
+    env_file:
+      - ./.devcontainer/ex_python/.env
+    volumes:
+      - "./Python:/Python/"
     tty: true
 
 networks:
