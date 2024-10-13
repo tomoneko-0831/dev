@@ -5,7 +5,12 @@ services:
     container_name: ex_c
     build:
       context: ./C
-      dockerfile: ./../Dockerfile
+      dockerfile: ./../.devcontainer/Dockerfile
       target: ex_c
     volumes:
       - "./C:/C/"
+    tty: true
+
+networks:
+  practice-net:
+    driver: bridge

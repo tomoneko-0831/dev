@@ -1,0 +1,14 @@
+{
+    "name": "Java-practice",
+    "dockerComposeFile":["./../../docker-compose.yml"],
+    "service": "ex_java",
+    "workspaceFolder": "/workspace/ex_java/",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "vscjava.vscode-java-pack",
+                "oderwat.indent-rainbow"
+            ]
+        }
+    }
+}

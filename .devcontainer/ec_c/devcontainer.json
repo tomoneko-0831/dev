@@ -1,0 +1,15 @@
+{
+    "name": "C-practice",
+    "dockerComposeFile":"./../../docker-compose.yml",
+    "service": "ex_c",
+    "workspaceFolder": "/C",
+    "shutdownAction": "none",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools-extension-pack",
+                "oderwat.indent-rainbow"
+            ]
+        }
+    }
+}
