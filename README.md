@@ -12,6 +12,8 @@
 ## 使用技術
 - Docker
 - C言語
+- Java
+- Python
 
 # English
 ## Outline
@@ -27,3 +29,5 @@ Question : tomoneko.inc@gmail.com
 ## Technology
 - Docker
 - C_lang
+- Java
+- Python
