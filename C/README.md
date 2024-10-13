@@ -4,4 +4,4 @@
 
 # English
 ## Outline
-This folder is for practicing the C_lang.
+This folder is for practicing C_lang.

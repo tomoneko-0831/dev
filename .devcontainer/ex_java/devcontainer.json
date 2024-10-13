@@ -2,7 +2,7 @@
     "name": "Java-practice",
     "dockerComposeFile":["./../../docker-compose.yml"],
     "service": "ex_java",
-    "workspaceFolder": "/workspace/ex_java/",
+    "workspaceFolder": "/Java/",
     "customizations": {
         "vscode": {
             "extensions": [

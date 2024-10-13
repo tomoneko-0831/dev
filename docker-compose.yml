@@ -11,6 +11,16 @@ services:
       - "./C:/C/"
     tty: true
 
+  ex_java:
+    container_name: ex_java
+    build:
+      context: ./Java
+      dockerfile: ./../.devcontainer/Dockerfile
+      target: ex_java
+    volumes:
+      - "./Java:/Java/"
+    tty: true
+
 networks:
   practice-net:
     driver: bridge
