@@ -6,7 +6,14 @@ RUN apt-get update && apt-get -y upgrade
 
 RUN apt-get -y install build-essential
 
-RUN apt-get -y install mingw-w64
+
+FROM ubuntu:24.04 AS dev_win
+
+WORKDIR /dev_win/
+
+RUN apt-get update && apt-get -y upgrade
+
+RUN apt-get install -y mingw-w64
 
 
 FROM ubuntu:24.04 AS ex_java

@@ -33,6 +33,19 @@ services:
       - "./Python:/Python/"
     tty: true
 
+  dev_win:
+    container_name: dev_win
+    build:
+      context: ./dev_win
+      dockerfile: ./../.devcontainer/Dockerfile
+      target: dev_win
+    # env_file:
+    #   - ./.devcontainer/dev_win/.env
+    volumes:
+      - "./dev_win:/dev_win/"
+    tty: true
+
+
 networks:
   practice-net:
     driver: bridge
