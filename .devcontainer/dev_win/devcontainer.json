@@ -1,0 +1,15 @@
+{
+    "name": "Windows-Application",
+    "dockerComposeFile":"./../../docker-compose.yml",
+    "service": "dev_win",
+    "workspaceFolder": "/dev_win",
+    "shutdownAction": "none",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools-extension-pack",
+                "oderwat.indent-rainbow"
+            ]
+        }
+    }
+}
