@@ -39,8 +39,8 @@ services:
       context: ./dev_win
       dockerfile: ./../.devcontainer/Dockerfile
       target: dev_win
-    # env_file:
-    #   - ./.devcontainer/dev_win/.env
+    env_file:
+      - ./.devcontainer/dev_win/.env
     volumes:
       - "./dev_win:/dev_win/"
     tty: true
