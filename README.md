@@ -93,13 +93,9 @@ git clone this-repository-link
 
 #### Docker + DevcontainerでDockerコンテナ内に入る
 
-左上の
- *「ファイル(F)」* 
- をクリックして，
- *「フォルダを開く...」*
- をクリック．  
-次に，このクローンしたリポジトリ *「ex_dev」*に入ります．  
-そして，*「Ctrl+Shift+P」*を押して，*「開発コンテナー：コンテナーで再度開く」*をクリックして，入りたいファイル名を選択します．  
+左上の __「ファイル(F)」__ をクリックして，__「フォルダを開く...」__ をクリック．  
+次に，このクローンしたリポジトリ __「ex_dev」__ に入ります．  
+そして，__「Ctrl+Shift+P」__ を押して，__「開発コンテナー：コンテナーで再度開く」__ をクリックして，入りたいファイル名を選択します．  
 
 
 # English
@@ -195,8 +191,8 @@ Optional
 
 ####　Entering the Docker container with using Docker + Devcontainer
 
-Click *"File (F)"* in the upper left, then click *"Open Folder..."*.
-Next, enter this cloned repository *"ex_dev"*.
-Then press *"Ctrl+Shift+P"*, click *"Development Container: Reopen in Container"*, and select the file name you want to enter.
+Click __"File (F)"__ in the upper left, then click __"Open Folder..."__.
+Next, enter this cloned repository __"ex_dev"__.
+Then press __"Ctrl+Shift+P"__, click __"Development Container: Reopen in Container"__, and select the file name you want to enter.
 
 Once selected, it will start up automatically. (It will take some time only the first time.)
