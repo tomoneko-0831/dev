@@ -1,5 +1,5 @@
 {
-    "name": "C-practice",
+    "name": "ex_c",
     "dockerComposeFile":"./../../docker-compose.yml",
     "service": "ex_c",
     "workspaceFolder": "/C",

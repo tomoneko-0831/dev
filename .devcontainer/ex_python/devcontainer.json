@@ -1,5 +1,5 @@
 {
-    "name": "Python-practice",
+    "name": "ex_py",
     "dockerComposeFile":["./../../docker-compose.yml"],
     "service": "ex_python",
     "workspaceFolder": "/Python/",

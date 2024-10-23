@@ -1,5 +1,5 @@
 {
-    "name": "Java-practice",
+    "name": "ex_java",
     "dockerComposeFile":["./../../docker-compose.yml"],
     "service": "ex_java",
     "workspaceFolder": "/Java/",
