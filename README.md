@@ -173,7 +173,7 @@ Then you should have a folder structure like the one below.
     └─ex_py
             README.md
 ```
-#### VSCode の拡張機能のインストール
+#### Installing The VSCode Extension
 
 Please install the following extensions.  
 __Required__  
@@ -189,7 +189,7 @@ __Optional__
 - Remote Explorer
 - Remote Repositories
 
-####　Entering the Docker container with using Docker + Devcontainer
+#### Entering the Docker container with using Docker + Devcontainer
 
 Click __"File (F)"__ in the upper left, then click __"Open Folder..."__.
 Next, enter this cloned repository __"ex_dev"__.
