@@ -124,8 +124,7 @@ Download and install VSCode and Docker.
 
 #### Get This Repository
 
-以下のコードを任意のディレクトリで実行します．
-
+Run the following code in any directory.  
 ```
 git clone this-repository-link
 ```
