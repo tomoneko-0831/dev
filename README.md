@@ -27,7 +27,7 @@ VSCode と Docker のダウンロード，およびインストール
 以下のコードを任意のディレクトリで実行します．
 
 ```
-git clone this-repository-link
+git clone https://github.com/tomoneko-0831/ex_dev.git
 ```
 
 すると，以下のようなフォルダ構成になっていると思います．
@@ -126,7 +126,7 @@ Download and install VSCode and Docker.
 
 Run the following code in any directory.  
 ```
-git clone this-repository-link
+git clone https://github.com/tomoneko-0831/ex_dev.git
 ```
 
 Then you should have a folder structure like the one below.  
