@@ -78,7 +78,8 @@ git clone this-repository-link
 
 以下の拡張機能のインストールをお願いします．  
 必須 
-- Dev Containers  
+- Dev Containers
+
 任意
 - Docker
 - Japanese Language Pack for Visual Studio Code
