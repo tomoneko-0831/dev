@@ -4,27 +4,31 @@ services:
   ex_c:
     container_name: ex_c
     build:
-      context: ./C
+      context: ./ex_c
       dockerfile: ./../.devcontainer/Dockerfile
       target: ex_c
     volumes:
       - "./ex_c:/C/"
     tty: true
+    networks:
+      - ex-dev-net
 
   ex_java:
     container_name: ex_java
     build:
-      context: ./Java/
+      context: ./ex_java/
       dockerfile: ./../.devcontainer/Dockerfile
       target: ex_java
     volumes:
       - "./ex_java:/Java/"
     tty: true
+    networks:
+      - ex-dev-net
 
   ex_python:
-    container_name: ex_python
+    container_name: ex_py
     build:
-      context: ./Python
+      context: ./ex_py
       dockerfile: ./../.devcontainer/Dockerfile
       target: ex_python
     env_file:
@@ -32,6 +36,8 @@ services:
     volumes:
       - "./ex_py:/Python/"
     tty: true
+    networks:
+      - ex-dev-net
 
   dev_win:
     container_name: dev_win
@@ -44,8 +50,10 @@ services:
     volumes:
       - "./dev_win:/dev_win/"
     tty: true
+    networks:
+      - ex-dev-net
 
 
 networks:
-  practice-net:
+  ex-dev-net:
     driver: bridge
