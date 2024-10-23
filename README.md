@@ -30,7 +30,7 @@ VSCode と Docker のダウンロード，およびインストール
 git clone this-repository-link
 ```
 
-選択すると，勝手に立ち上がります．（初回のみ時間がかかります．）
+すると，以下のようなフォルダ構成になっていると思います．
 
 ```
 └─ex_dev
@@ -76,9 +76,9 @@ git clone this-repository-link
 ```
 #### VSCode の拡張機能のインストール
 
-以下の拡張機能のインストールをお願いします． 
+以下の拡張機能のインストールをお願いします．  
 必須 
-- Dev Containers
+- Dev Containers  
 任意
 - Docker
 - Japanese Language Pack for Visual Studio Code
@@ -93,10 +93,9 @@ git clone this-repository-link
 #### Docker + DevcontainerでDockerコンテナ内に入る
 
 左上の *「ファイル(F)」* をクリックして，*「フォルダを開く...」*をクリック．  
-次に，このクローンしたリポジトリ *「ex_dev」*に入ります．
+次に，このクローンしたリポジトリ *「ex_dev」*に入ります．  
 そして，*「Ctrl+Shift+P」*を押して，*「開発コンテナー：コンテナーで再度開く」*をクリックして，入りたいファイル名を選択します．  
 
-Then you should have a folder structure like the one below.  
 
 # English
 ## Outline
@@ -130,7 +129,7 @@ Download and install VSCode and Docker.
 git clone this-repository-link
 ```
 
-すると，以下のようなフォルダ構成になっていると思います．
+Then you should have a folder structure like the one below.  
 
 ```
 └─ex_dev
