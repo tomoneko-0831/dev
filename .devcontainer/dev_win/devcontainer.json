@@ -1,5 +1,5 @@
 {
-    "name": "Windows-Application",
+    "name": "dev_win",
     "dockerComposeFile":"./../../docker-compose.yml",
     "service": "dev_win",
     "workspaceFolder": "/dev_win",
