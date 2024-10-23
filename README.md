@@ -23,9 +23,9 @@
 
 以下のコードを任意のディレクトリで実行します．
 
-'''sh
+```
 git clone this-repository-link
-'''
+```
 
 # English
 ## Outline
