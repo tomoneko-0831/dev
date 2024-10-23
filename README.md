@@ -191,8 +191,8 @@ __Optional__
 
 #### Entering the Docker container with using Docker + Devcontainer
 
-Click __"File (F)"__ in the upper left, then click __"Open Folder..."__.
-Next, enter this cloned repository __"ex_dev"__.
-Then press __"Ctrl+Shift+P"__, click __"Development Container: Reopen in Container"__, and select the file name you want to enter.
+Click __"File (F)"__ in the upper left, then click __"Open Folder..."__.  
+Next, enter this cloned repository __"ex_dev"__.  
+Then press __"Ctrl+Shift+P"__, click __"Development Container: Reopen in Container"__, and select the file name you want to enter.  
 
 Once selected, it will start up automatically. (It will take some time only the first time.)
