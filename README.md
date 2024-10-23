@@ -178,6 +178,7 @@ Then you should have a folder structure like the one below.
 Please install the following extensions.  
 Required  
 - Dev Containers
+
 Optional  
 - Docker
 - Japanese Language Pack for Visual Studio Code
