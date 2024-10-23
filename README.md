@@ -15,6 +15,18 @@
 - Java
 - Python
 
+### 使用方法
+
+使用方法の解説です．
+
+#### ディレクトリ取得
+
+以下のコードを任意のディレクトリで実行します．
+
+'''sh
+git clone this-repository-link
+'''
+
 # English
 ## Outline
 This repository is created with the contents described below.
