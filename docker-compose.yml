@@ -8,7 +8,7 @@ services:
       dockerfile: ./../.devcontainer/Dockerfile
       target: ex_c
     volumes:
-      - "./C:/C/"
+      - "./ex_c:/C/"
     tty: true
 
   ex_java:
@@ -18,7 +18,7 @@ services:
       dockerfile: ./../.devcontainer/Dockerfile
       target: ex_java
     volumes:
-      - "./Java:/Java/"
+      - "./ex_java:/Java/"
     tty: true
 
   ex_python:
@@ -30,7 +30,7 @@ services:
     env_file:
       - ./.devcontainer/ex_python/.env
     volumes:
-      - "./Python:/Python/"
+      - "./ex_py:/Python/"
     tty: true
 
   dev_win:
