@@ -77,10 +77,10 @@ git clone this-repository-link
 #### VSCode の拡張機能のインストール
 
 以下の拡張機能のインストールをお願いします．  
-必須 
+__必須__ 
 - Dev Containers
 
-任意
+__任意__
 - Docker
 - Japanese Language Pack for Visual Studio Code
 - Remote - SSH
@@ -176,10 +176,10 @@ Then you should have a folder structure like the one below.
 #### VSCode の拡張機能のインストール
 
 Please install the following extensions.  
-Required  
+__Required__  
 - Dev Containers
 
-Optional  
+__Optional__  
 - Docker
 - Japanese Language Pack for Visual Studio Code
 - Remote - SSH
