@@ -8,7 +8,9 @@
             "extensions": [
                 "ms-python.python",
                 "ms-python.debugpy",
-                "oderwat.indent-rainbow"
+                "oderwat.indent-rainbow",
+                "ms-vscode-remote.remote-containers",
+                "ms-azuretools.vscode-docker"
             ]
         }
     }

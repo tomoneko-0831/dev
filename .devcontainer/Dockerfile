@@ -2,7 +2,7 @@ FROM ubuntu:24.04 AS base
 
 RUN apt-get update && apt-get -y upgrade
 
-RUN apt-get install -y make sudo git
+RUN apt-get install -y make sudo git vim nkf
 
 RUN ln -sf /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
 
