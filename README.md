@@ -20,7 +20,7 @@
 使用方法の簡単な解説です．
 
 前提条件として，以下を要求します．  
-VSCode と Docker のダウンロード，およびインストール  
+VSCode と Docker, Git のダウンロード，およびインストール  
 
 #### リポジトリ取得
 
@@ -120,7 +120,7 @@ Question : <tomoneko.inc@gmail.com>
 A simple explanation of how to use it．
 
 As prerequisites, you will need the following:
-Download and install VSCode and Docker.  
+Download and install VSCode, Docker and Git.  
 
 #### Get This Repository
 
